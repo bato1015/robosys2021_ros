@@ -1,5 +1,5 @@
 # robosys2021_ros
-ロボットシステム学課題2提出用レポジトリです。rand関数、rosを使用してルーレットを作成しました。  
+ロボットシステム学課題2提出用レポジトリです。rand関数、ROSを使用してルーレットを作成しました。  
 *オマケの機能  
 掛率、掛け金、番号を入力し、メッセージで勝敗と金額を表示します。
 ***
@@ -26,6 +26,11 @@ Librar:RPi.GPIO
 | IN2    | 17   |
 | IN3    | 27   |
 | IN4    | 22   |
+***
+## 回路
+
+***
+## ノード図
 ***
 ## インストール
 ワークスペースを作成し、パッケージ内にcloneしてください.  
@@ -67,7 +72,7 @@ rosrun robosys2021_ros cal_num.py
 ## 遊び方
 ターミナル3はルーレットが止まる前に結果が表示されるため、隠すことを推奨します。  
 1.ターミナル4実行後、標準出力に従って数字を入力してください.  
-2.ルーレットが回ります。
+2.ルーレットが回ります。  
 3.ターミナル3で勝敗を確認してください。
 ### 具体例
 ```
@@ -79,6 +84,12 @@ blue:1 red:2
 1　　　　　　　//入力3
 ```
 ## 動画
+***
+
+## 参考資料
+<a href="https://kazuyamashi.github.io/ros_lecture/ros_study_py.html">ROSの基本的な開発</a>
+
+<a href="https://tutorials-raspberrypi.com/how-to-control-a-stepper-motor-with-raspberry-pi-and-l293d-uln2003a/">ステッピングモーターの動かし方</a>
 ***
 ## ライセンス
 <a href="https://github.com/bato1015/robosys2021_ros/blob/main/LICENSE">BSD 3-Clause License</a>
