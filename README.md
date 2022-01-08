@@ -94,6 +94,7 @@ blue:1 red:2
 <a href="https://kazuyamashi.github.io/ros_lecture/ros_study_py.html">ROSの基本的な開発</a>
 
 <a href="https://tutorials-raspberrypi.com/how-to-control-a-stepper-motor-with-raspberry-pi-and-l293d-uln2003a/">ステッピングモーターの動かし方</a>
+<a href="https://stupiddog.jp/note/archives/1235">ULN2003Aの回路図</a>
 ***
 ## ライセンス
 <a href="https://github.com/bato1015/robosys2021_ros/blob/main/LICENSE">BSD 3-Clause License</a>
