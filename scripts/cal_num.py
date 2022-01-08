@@ -14,9 +14,9 @@ angle[0]=[0,1,0,1]
 #user_number
 def select(ration):
     if(ration==2):
-        number=int(input("blue:1 red:2?"))
+        number=int(input("blue:1 red:2\n"))
     elif(ration==4):
-        number=int(input("1~4?:"))
+        number=int(input("1~4?\n"))
     return number-1
    
 #random_num
@@ -42,7 +42,7 @@ if __name__ == '__main__':
    rate=rospy.Rate(10)
 
    #user_input and judging
-   ration = int(input("2?4?"))
+   ration = int(input("2?4?\n"))
    salary= int(input("How much bet?\n"))
    user_num=select(ration)
    ru_num=random_num(ration)
