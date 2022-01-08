@@ -33,6 +33,8 @@ Raspberry Pi 4の回路データがなかったため、Raspberry Pi 3で代用
 
 ***
 ## ノード図
+![image](https://user-images.githubusercontent.com/70883743/148645940-1d103b15-44c5-4d56-ac6c-d13cddba1f39.png)
+
 ***
 ## インストール
 ワークスペースを作成し、パッケージ内にcloneしてください.  
