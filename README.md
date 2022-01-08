@@ -28,6 +28,7 @@ Librar:RPi.GPIO
 | IN4    | 22   |
 ***
 ## 回路
+Raspberry Pi 4の回路データがなかったため、Raspberry Pi 3で代用
 <img width="361" alt="image" src="https://user-images.githubusercontent.com/70883743/148645309-09b79d6d-3ef4-4519-8045-56a238bd0715.png">
 
 ***
