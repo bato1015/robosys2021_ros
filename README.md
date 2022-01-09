@@ -98,4 +98,4 @@ blue:1 red:2
 <a href="https://stupiddog.jp/note/archives/1235">ULN2003Aの回路図</a>
 ***
 ## ライセンス
-<a href="https://github.com/bato1015/robosys2021_ros/blob/main/LICENSE">BSD 3-Clause License</a>
+<a href="https://github.com/bato1015/robosys2021_ros/blob/master/LICENSE">BSD 3-Clause License</a>
