@@ -46,7 +46,7 @@ PythonライブラリーRPi.GPIOがインストールされていない場合
 以下コードを続けて実行
 ```
 git clone git@github.com:bato1015/robosys2021_ros.git
-git checkout mastr
+git checkout master
 cd ..
 catkin_make
 cd src/robosys2021_ros/scripts
