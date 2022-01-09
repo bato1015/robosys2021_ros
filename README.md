@@ -16,7 +16,7 @@ Librar:RPi.GPIO
 ・ステッピングモータ(28BYJ-48 5V)  
 ・<a href="https://www.amazon.co.jp/KKHMF-2%E5%80%8B%E3%82%BB%E3%83%83%E3%83%88-28BYJ-48-%E3%82%B9%E3%83%86%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0%E3%83%A2%E3%83%BC%E3%82%BF%E3%83%BC-ULN2003%E3%82%B9%E3%83%86%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0%E3%83%A2%E3%83%BC%E3%82%BF%E3%83%BC%E9%A7%86%E5%8B%95%E3%83%86%E3%82%B9%E3%83%88%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%83%9C%E3%83%BC%E3%83%89/dp/B088FLLYF3/ref=pd_lpo_2?pd_rd_i=B088FLLYF3&psc=1">ULN2003ドライバー</a>  
 ・ジャンパー線 オス−メス 12本  
-・ルーレット台
+・<a href="https://user-images.githubusercontent.com/70883743/148672282-8a0ee486-3e10-4556-bdd9-a6a12cfef9dc.jpg">ルーレット台</a>
 
 ***
 ## ピン配置
@@ -61,11 +61,11 @@ chmod +x roullette.py cal_num.py
 ```
 roscore
 ```
-・ターミナル2(ルーレット)
+・ターミナル2(結果出力)
 ```
 rosrun robosys2021_ros rullette.py
 ```
-・ターミナル3(結果出力)
+・ターミナル3(ルーレット起動)
 ```
 rostopic echo /result
 ```
@@ -90,10 +90,11 @@ blue:1 red:2
 ## 動画
 ***
 
-## 参考資料
-<a href="https://kazuyamashi.github.io/ros_lecture/ros_study_py.html">ROSの基本的な開発</a>
+<a href="https://www.youtube.com/watch?v=UQO0qApB6VU">ロボットシステム学課題2</a>
 
-<a href="https://tutorials-raspberrypi.com/how-to-control-a-stepper-motor-with-raspberry-pi-and-l293d-uln2003a/">ステッピングモーターの動かし方</a>
+## 参考資料
+<a href="https://kazuyamashi.github.io/ros_lecture/ros_study_py.html">ROSの基本的な開発</a>  
+<a href="https://tutorials-raspberrypi.com/how-to-control-a-stepper-motor-with-raspberry-pi-and-l293d-uln2003a/">ステッピングモーターの動かし方</a>  
 <a href="https://stupiddog.jp/note/archives/1235">ULN2003Aの回路図</a>
 ***
 ## ライセンス
